@@ -1,0 +1,571 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link   rel="stylesheet"  href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet"  href="estilo.scss">
+<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+        <div class="container">
+            <a class="navbar-brand h1 mb-0 fluid" href="#">Centro Paulo Pizzas</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsite">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarsite">
+                    <ul class="navbar-nav" mr-auto>
+                        <li class="nav-item">
+                            <a class="nav-link"href="#">inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"href="#">serviços</a>
+                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link"href="#">perfil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"href="#">contato</a>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link"href="#">depoimentos</a>
+                </li>
+            <li class="nav-item">
+                <a class="nav-link"href="#">parceiros</a>
+            </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navdrop">Social</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item "href="https://www.facebook.com/BiosBeauty/?ref=bookmarks"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
+                                <a class="dropdown-item "href="https://www.instagram.com/biosbeauty/?hl=pt-br"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
+                                <a class="dropdown-item"href="https://www.youtube.com/channel/UCVufqdvbVv9vr48B4aZ0Y6Q?view_as=subscriber"><i class="fa fa-youtube-play" aria-hidden="true"></i> Youtube</a>
+    
+        
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="form-inline">
+                        <input class="form-control" type="search" placeholder="buscar">
+                        <button class="btn btn-dark "ml-4 mr-4 type="submit">OK</button>
+                    </form>
+                </div> 
+        </div>
+    </nav>
+    <div id="carouselsite" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselsite" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselsite" data-slide-to="1" ></li>
+            <li data-target="#carouselsite" data-slide-to="2" ></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/RED E BIOS.jpg" class="img-fluid d-block mx-auto" style="width: 650px;">
+                <div class="carousel-caption d-none d-md-block  ">
+                    
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/Argan Oil & Ojon.jpg" class="img-fluid d-block mx-auto" style="width: 650px;">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/Serum.jpg " class="img-fluid d-block mx-auto" style="width: 650px;" >
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselsite"role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="sr-only">anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselsite"role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="sr-only">proximo</span>
+        </a>
+    
+    
+    
+    
+    
+    
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center my-5">
+                <h1 class="display-3"><i class="fa fa-cogs text-warning" aria-hidden="true"></i>Seja bem-vindo</h1>
+                <p>Conheça nossa linha</p>
+            </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-sm-6 col-md-4 mb-2">
+              <nav id="navbarvertical" class="navbar navbar-light bg-light">
+                  <nav class="nav nav-pills flex-column">
+                      <a class="nav-link" href="#item1">Sobre a gente</a>
+                      <nav class="nav nav-pills flex-column">
+                        <a class="nav-link ml-3" href="#item1-1">Quem somos</a>
+                        <a class="nav-link ml-3" href="#item1-2">Missão </a>
+                      </nav>
+                      <a class="nav-link " href="#item3">linhas </a>
+                      <nav class="nav nav-pills flex-column">
+                        <a class="nav-link ml-3" href="#item3-1">Profissional </a>
+                        <a class="nav-link ml-3" href="#item3-2"> Homecare  </a>
+    
+      
+                  </nav>
+              </nav>
+              
+          </div>
+          <div class="col-sm-6 col-md-8">
+              <div data-spy="scroll" data-target="#navbarvertical" data-offset="0" class="scrollspysite">
+                  <h3 id="item1">Sobre a gente</h3>
+                  
+    
+                  <h5 id="item1-1">Quem somos</h5>
+                  <p>Aenean scelerisque urna non lacus placerat, a iaculis nisi pellentesque. Phasellus egestas dolor enim,
+                       quis interdum eros rhoncus sit amet. Sed lobortis molestie augue. Suspendisse in sagittis quam, a suscipit ante. Duis vel massa vestibulum, maximus tortor non, euismod eros. Donec dapibus fringilla tincidunt. Fusce eleifend dolor nibh, in mollis sapien feugiat eu. Ut facilisis lobortis lectus, vel mattis augue tempor sed. Vestibulum porttitor eros ac purus dignissim, at mollis purus sodales. In rhoncus, sapien ut ultrices pulvinar, 
+                      ipsum ipsum luctus arcu, porttitor auctor diam ex eget nisi.</p>
+                  <h5 id="item1-2">Missão</h5>
+                  <p>posuere in nulla nec, feugiat dapibus urna. In eu est id nibh blandit malesuada vel porttitor ipsum. 
+                    Aenean mattis dui id lorem vehicula pretium. Sed eget ex leo. Vestibulum eget dolor hendrerit, auctor leo vestibulum, vestibulum ipsum. Duis quam quam,
+                    malesuada et vestibulum sed, pharetra quis tellus. Ut ut velit leo.</p>
+                   <h3 id="item3">Linha</h3>
+                   <p>Nós temos 2 tipos de linha um voltado para o Profissional da beleza e outra para o consumidor final</p>
+     
+                   <h5 id="item3-1">Profissional</h5>
+                   <p>Aenean scelerisque urna non lacus placerat, a iaculis nisi pellentesque. Phasellus egestas dolor enim,
+                        quis interdum eros rhoncus sit amet. Sed lobortis molestie augue. Suspendisse in sagittis quam, a suscipit ante. Duis vel massa vestibulum, maximus tortor non, euismod eros. Donec dapibus fringilla tincidunt. Fusce eleifend dolor nibh, in mollis sapien feugiat eu. Ut facilisis lobortis lectus, vel mattis augue tempor sed. Vestibulum porttitor eros ac purus dignissim, at mollis purus sodales. In rhoncus, sapien ut ultrices pulvinar, 
+                       ipsum ipsum luctus arcu, porttitor auctor diam ex eget nisi.</p>
+                   <h5 id="item3-2">homecare</h5>
+                   <p>posuere in nulla nec, feugiat dapibus urna. In eu est id nibh blandit malesuada vel porttitor ipsum. 
+                     Aenean mattis dui id lorem vehicula pretium. Sed eget ex leo. Vestibulum eget dolor hendrerit, auctor leo vestibulum, vestibulum ipsum. Duis quam quam,
+                     malesuada et vestibulum sed, pharetra quis tellus. Ut ut velit leo.</p>
+              </div>
+          </div>
+        </div>
+        <div class="row justify-content-sm-center ">
+            <div class="col-sm-6 col-md-4">
+                <div class="card mb-5">
+                    <img class="card-img-top" src="img/Foto 01.jpg">
+                    <div class="card-body">
+                        <H4 class="card-title"> Keratin Power Gel</H4>
+                        <h6 class="card-subtitle mb-2 text-muted"> reconstrutor instataneo</h6>
+                    <p>Restaure os seus cabelos com essa incrivel keratina em gel </P>
+                    </div>
+                    <ul class="list-group list-group-flush"> 
+                        <li class="list-group-item">Dá forma ao cabelo</li>
+                        <li class="list-group-item">Torna o fio resistente</li>
+                        <li class="list-group-item">Protege os fios.</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i> Loja</a>
+                            <a href="#" class="card-link" data-toggle="modal" data-target="#sitemodalc">Saiba mais</a>
+                    </div>
+                    <div class="card-footer text-muted">adquira já a sua</div>
+                </div>
+            </div>
+      
+            <div class="col-sm-6 col-md-4">
+                <div class="card mb-5">
+                    <img class="card-img-top" src="img/01a - Copia.jpg">
+                    <div class="card-body">
+                        <H4 class="card-title"> Algaline Joy Blue</H4>
+                        <h6 class="card-subtitle mb-2 text-muted"> Blue a cor da alegria</h6>
+                    <p>Pinte seus cabelos com essa incrivel ampola </P>
+                    </div>
+                    <ul class="list-group list-group-flush"> 
+                        <li class="list-group-item">Deixa mais brilhos</li>
+                        <li class="list-group-item">Reaviva o tom</li>
+                        <li class="list-group-item">Não danifica o cabelo</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i> Loja</a>
+                        <a href="#" class="card-link" data-toggle="modal" data-target="#sitemodalb">Saiba mais</a>
+                    </div>
+                    <div class="card-footer text-muted">adquira já a sua</div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card mb-5 ">
+                    <img class="card-img-top" src="img/Chantilly.jpg">
+                    <div class="card-body">
+                        <H4 class="card-title"> Treatment Smart chantilly</H4>
+                        <h6 class="card-subtitle mb-2 text-muted"> O creme mágico</h6>
+                    <p>deixa seus cabelos lindos e restaurados com essa ampola </P>
+                    </div>
+                    <ul class="list-group list-group-flush"> 
+                        <li class="list-group-item">restaura</li>
+                        <li class="list-group-item">Hidrata</li>
+                        <li class="list-group-item">Nutri</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i> Loja</a>
+                        <a href="#" class="card-link" data-toggle="modal" data-target="#sitemodal">Saiba mais</a>
+                    </div>
+                    <div class="card-footer text-muted">adquira já a sua</div>
+                </div>
+                </div>
+            </div>
+           
+    
+         
+    
+        </div>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 ">
+                        <h1 class="display-4"><i class="fa fa-video-camera my-2" aria-hidden="true"></i> Vídeos do momento</h1>
+                        <p class="leader"> Veja os nossos ultimos vídeos </p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="nav nav-pills justify-content-center mb-4" id="pills-nav" role="tablist">
+                            <li class="nav-item">
+                            <a class="nav-link active" id="nav-pills-01" data-toggle="pill" href="#nav-item-01">Chantilly</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " id="nav-pills-02" data-toggle="pill" href="#nav-item-02">Algaline Joy</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nav-pills-03" data-toggle="pill" href="#nav-item-03 ">Keratin e Acid</a>
+                                    </li>
+                
+    
+                        </ul>
+                        <div class="tab-content" id="nav-pills-content">
+                            <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="embed-responsive embed-responsive-16by9">
+                                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FGDUIbiSVeY"></iframe>
+                                        </div>
+    
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <p>Veja como usar a ampola Chantilly </p>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="tab-pane fade " id="nav-item-02" role="tabpanel">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="embed-responsive embed-responsive-16by9">
+                                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7_N8oKqAq-o"></iframe>
+                                            </div>
+        
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>conheça a nossa linha joy, e alguns dos seus resultados </p>
+                                        </div>
+                                    </div>
+                                </div>
+                             
+                                
+                                    <div class="tab-pane fade " id="nav-item-03" role="tabpanel">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="embed-responsive embed-responsive-16by9">
+                                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3cafkW4q4FY"></iframe>
+                                                </div>
+            
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <p>Passo a passo de como usar a keratina power gel com o reconstrutor acid </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+    
+    
+    
+    
+    
+        
+    </div>
+    <div class="container">
+        <div class="row">
+        <div class="col-12 text-center"> 
+            <h1 class="display-4 "><i class="fa fa-location-arrow" aria-hidden="true"></i> novidades</h1>    
+        </div>
+        </div>
+        <div class="row mb-5 justify-content-center">
+            <div class="col-sm-12 col-md-10 col-lg-8">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-sm-6 ">
+                        <label for="inputnome">Seu nome</label>
+                        <input type="text" class="form-control" id="inputnome" placeholder="nome">
+                    
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="inputsobrenome">Seu sobrenome</label>
+                        <input type="text" class="form-control" id="inputsobrenome" placeholder="sobrenome">
+                    </div>
+                    <div class="form-group col-sm-12">
+                        <label for="inputend">Endereço</label>
+                        <input type="text" class="form-control" id="inputend" placeholder="Endereço">
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="inputcidade">Cidade</label>
+                        <input type="text" class="form-control" id="inputcidade" placeholder="cidade">
+                    </div>
+                    <div class="form-group col-sm-4">
+                        <label for="inputestado">Estado</label>
+                        <select id="inputestado" class="form-control">
+                            <option selected>Escolha um...</option>
+                            <option selected>Ac</option>
+                            <option selected>Al</option>
+                            <option selected>Ap</option>
+                            <option selected>Am</option>
+                            <option selected>Ba</option>
+                            <option selected>Ce</option>
+                            <option selected>Df</option>
+                            <option selected>Es</option>
+                            <option selected>Go</option>
+                            <option selected>Ma</option>
+                            <option selected>Mt</option>
+                            <option selected>Ms</option>
+                            <option selected>Mg</option>
+                            <option selected>Pa</option>
+                            <option selected>Pb</option>
+                            <option selected>Pr</option>
+                            <option selected>Pe</option>
+                            <option selected>Pi</option>
+                            <option selected>Rr</option>
+                            <option selected>Ro</option>
+                            <option selected>Rj</option>
+                            <option selected>Rn</option>
+                            <option selected>Rs</option>
+                            <option selected>Sc</option>
+                            <option selected>Sp</option>
+                            <option selected>Se</option>
+                            <option selected>To</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-sm-2">
+                        <label for="inputcep">Cep</label>
+                        <input type="text" class="form-control" id="inputcep" placeholder="Cep">
+                    </div>
+                    <div class="form-group col-sm-8">
+                        <label for="inputcidade">E-mail</label>
+                        <input type="text" class="form-control" id="inputcidade" placeholder="E-mail">
+                    </div>
+    
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-12">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox">desejo receber as novidades por e-mail</label>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group fol-sm-12">
+                            <button type="submit" class="btn btn-primary ">Enviar</button>
+                            <a tabindex="0" class="btn btn-secondary ml-2" role="button" data-toggle="popover" 
+                            data-placement="right" data-trigger="focus" title="me ajude" 
+                            data-content="Entre em contanto pelo numero 11-98709-1077">Ajuda</a>
+                        </div>
+                    </div>
+                </form>
+    
+            </div>
+    
+    
+        </div>
+        <div class="row">
+            <div class="col-12 "><hr></div>
+            <div class="col-sm-4">
+                <h3>Quem somos</h3>
+                <p>Somos uma empresa de cosmeticos com mais de 10 anos no mercado somos conhecidos por nossa qualidade
+                    e o nosso compromisso com o nosso cliente e nosso lema é "gente gasta tempo com gente"</p>
+            </div>
+            <div class="col-sm-4">
+                <h3>Menu</h3>
+                <div class="list-group text-center">
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-warning disabled">inicio</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Perfil</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-warning">serviços</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Contanto</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-warning">depoimentos</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-warning">parceiros</a>
+            </div>
+        </div>
+            <div class="col-sm-4">
+                <h3>social</h3>
+                <div class="btn-group-vertical btn-block btn-group-lg" role="group">
+                    <a class="btn btn-outline-primary" href="https://www.facebook.com/BiosBeauty/?ref=bookmarks"><i class="fa fa-facebook-official" aria-hidden="true"></i> facebook</a>
+                    <a class="btn btn-outline-danger" href="https://www.youtube.com/channel/UCVufqdvbVv9vr48B4aZ0Y6Q?view_as=subscriber"><i class="fa fa-youtube-play" aria-hidden="true"></i> youtube</a>
+                    <a class="btn btn-outline-warning" href="https://www.instagram.com/biosbeauty/?hl=pt-br"><i class="fa fa-instagram" aria-hidden="true"></i> instagram</a>
+                </div>
+            </div>
+            <div class="col-12 mt-5">
+                <blockquote class="blockquote text-center ">
+                    <p class="mb-0">Porém, se vos parece mal aos vossos olhos servir ao Senhor,
+                        escolhei hoje a quem sirvais; se aos deuses a quem serviram vossos pais, 
+                        que estavam além do rio, ou aos deuses dos amorreus, em cuja terra habitais; porém eu e a 
+                        minha casa serviremos ao Senhor.
+                        </p>
+                        <footer class="blockquote-footer">Josué 24:15</footer>
+                </blockquote>
+            </div>
+    
+        </div>
+    </div>
+    <!--modal-->
+    <div class="modal fade" id="sitemodal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">informações</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+    
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5>Oque é</h5>
+                                <p>Morbi nibh orci, varius in molestie quis, bibendum et diam. Ut in nisi sagittis, maximus purus a, 
+                                    dignissim dui. Cras ullamcorper finibus odio, quis bibendum tortor dignissim nec. Suspendisse dignissim 
+                                    nisi mi, nec suscipit diam auctor non.Suspendisse condimentum eros in turpis vehicula,
+                                     vitae egestas nulla vestibulum.</p>
+    
+                            </div>
+                            <div class="col-6">
+                                <h5>como usar</h5>
+                                <p>Morbi nibh orci, varius in molestie quis, bibendum et diam. Ut in nisi sagittis, maximus purus a, 
+                                    dignissim dui. Cras ullamcorper finibus odio, quis bibendum tortor dignissim nec. Suspendisse dignissim 
+                                    nisi mi, nec suscipit diam auctor non.Suspendisse condimentum eros in turpis vehicula,
+                                     vitae egestas nulla vestibulum.</p>
+    
+    
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">fechar</button>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="sitemodalb" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">informações</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+    
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5>Oque é</h5>
+                                <p>Morbi nibh orci, varius in molestie quis, bibendum et diam. Ut in nisi sagittis, maximus purus a, 
+                                    dignissim dui. Cras ullamcorper finibus odio, quis bibendum tortor dignissim nec. Suspendisse dignissim 
+                                    nisi mi, nec suscipit diam auctor non.Suspendisse condimentum eros in turpis vehicula,
+                                     vitae egestas nulla vestibulum.</p>
+    
+                            </div>
+                            <div class="col-6">
+                                <h5>como usar</h5>
+                                <p>Morbi nibh orci, varius in molestie quis, bibendum et diam. Ut in nisi sagittis, maximus purus a, 
+                                    dignissim dui. Cras ullamcorper finibus odio, quis bibendum tortor dignissim nec. Suspendisse dignissim 
+                                    nisi mi, nec suscipit diam auctor non.Suspendisse condimentum eros in turpis vehicula,
+                                     vitae egestas nulla vestibulum.</p>
+    
+    
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">fechar</button>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="sitemodalc" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">informações</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+    
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5>Oque é</h5>
+                                <p>Morbi nibh orci, varius in molestie quis, bibendum et diam. Ut in nisi sagittis, maximus purus a, 
+                                    dignissim dui. Cras ullamcorper finibus odio, quis bibendum tortor dignissim nec. Suspendisse dignissim 
+                                    nisi mi, nec suscipit diam auctor non.Suspendisse condimentum eros in turpis vehicula,
+                                     vitae egestas nulla vestibulum.</p>
+    
+                            </div>
+                            <div class="col-6">
+                                <h5>como usar</h5>
+                                <p>Morbi nibh orci, varius in molestie quis, bibendum et diam. Ut in nisi sagittis, maximus purus a, 
+                                    dignissim dui. Cras ullamcorper finibus odio, quis bibendum tortor dignissim nec. Suspendisse dignissim 
+                                    nisi mi, nec suscipit diam auctor non.Suspendisse condimentum eros in turpis vehicula,
+                                     vitae egestas nulla vestibulum.</p>
+    
+    
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">fechar</button>
+    
+                </div>
+            </div>
+        </div>
+    </div>    
+    
+
+
+    <script  src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script  src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+                    
+
+
+        })
+    </script>
+     
+</body>
+</html>
